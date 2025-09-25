@@ -27,7 +27,7 @@ namespace Ejercicio1
             foreach (string line in lineas) 
             {
                 string[] s = line.Split(';');
-                tbxResultados.Text = line;
+                tbxResultados.Text += s[0] + "/" + s[1] + "\r\n";
             }
         }
     }
